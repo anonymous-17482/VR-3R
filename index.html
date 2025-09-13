@@ -329,7 +329,28 @@
   </div>
 </section>
 <!-- End teaser video -->
-
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <div class="sketchfab-embed-wrapper" style="max-width: 100%; margin: 0 auto;">
+        <iframe
+          title="Ours_7"
+          loading="lazy"
+          style="width: 100%; aspect-ratio: 16/9; border: 0;"
+          allow="autoplay; fullscreen; xr-spatial-tracking; web-share"
+          xr-spatial-tracking
+          execution-while-out-of-viewport
+          execution-while-not-rendered
+          web-share
+          src="https://sketchfab.com/models/5502f56a44f148b6bd8ba67e3ada18ac/embed">
+        </iframe>
+      </div>
+      <h2 class="subtitle has-text-centered">
+        Interactive 3D demo (Sketchfab embed).
+      </h2>
+    </div>
+  </div>
+</section>
 <!-- Paper abstract -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
@@ -340,18 +361,14 @@
           <!-- TODO: Replace with your paper abstract -->
           <p>
 We present VR-3R, a zero-shot 3D scene reconstruction framework
-that enables immersive VR interaction from a single real-world im-
-age. The increasing demand for mixed-reality applications, includ-
-ing memory recollection and remote space exploration, highlights
+that enables immersive VR interaction from a single real-world image. The increasing demand for mixed-reality applications, including memory recollection and remote space exploration, highlights
 the importance of reconstructing 3D environments from arbitrary
-photographs. Despite advances in single-image 3D scene genera-
-tion, existing methods remain limited by incomplete background
+photographs. Despite advances in single-image 3D scene generation, existing methods remain limited by incomplete background
 recovery under occlusion and inaccurate object placement caused
 by monocular depth estimation. VR-3R addresses these challenges
 by integrating large-scale model priors to reconstruct high-quality
 3D scenes without additional training. The framework incorporates
-VLM-based foreground–background separation and depth align-
-ment with unprojected point clouds, achieving both scene-level
+VLM-based foreground–background separation and depth alignment with unprojected point clouds, achieving both scene-level
 consistency and detailed object recovery. Experiments on the 3D-
 FRONT dataset and in-the-wild real images demonstrate that VR-
 3R generates realistic backgrounds and accurate 3D models across
